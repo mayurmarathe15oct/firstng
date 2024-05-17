@@ -1,0 +1,60 @@
+nav{
+    min-height: 60px;
+    background-color: darkgray;
+    .profilePic{
+        // width: 25px;
+        // height: 25px;
+        border-radius: 50%;
+    }
+    .status{
+        width: 19px;
+        height: 10px;
+        border-radius: 50%;
+    }    
+
+    .online{
+        background-color: rgb(105, 207, 105);
+    }
+    
+    .offline{
+        background-color: rgb(101, 101, 101);
+    }
+}
+
+.navbar ul li{
+    font-size: 20px;
+    font-weight:500;
+    padding-left: 80px; 
+    padding-right: 20px;
+    padding-top: 30px;
+}
+
+.nav-link{
+    color: black !important;
+    
+}
+
+
+.banner{
+    background-image: url(/assets/banner.jpg);
+    height: 600px;
+    background-size: cover;
+}
+
+.router-outlet{
+    min-height: 500px;
+}
+
+.main{
+
+}
+
+.mainContainer{
+    min-height: 800px;
+    background-color: lightblue;
+}
+
+.footer{
+    height: 70px;
+    background-color: lightgray;
+}

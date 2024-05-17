@@ -1,0 +1,25 @@
+<div class="container">
+    <h1>STUDENTS DATABASE</h1>
+   <table class="table">
+      <thead>
+        <tr>
+           <th>ID</th>
+           <th>Student Name</th>
+           <th>Country</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+           @for(student of students; track student.id){
+              <tr>
+                <td>{{ student.id }}</td>
+                <td>{{ student.name}}</td>
+                <td>{{ student.country }}</td>
+              </tr>
+           }
+        
+      </tbody>
+
+
+    </table>
+</div>

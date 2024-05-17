@@ -1,0 +1,15 @@
+<div class="container">
+    <h1>Tweets</h1>
+
+    <div class="tweetsContainer">
+
+        @for(tweetRow of tweets; track tweetRow.tweetID){
+            <div class="tweet">
+                <p>{{ tweetRow.tweet }}</p>
+                <p class="tweetUser"><img [src]="tweetRow.profilePicture" class="profilePicture" >&#64; {{ tweetRow.user }}</p>
+            </div>
+        }
+        
+    </div>    
+
+</div>

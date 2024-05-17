@@ -1,0 +1,20 @@
+<div class="container">
+    <h1>Tweets</h1>
+
+    <div class="myProjectsContainer">
+
+        @for(projectRow of myprojects; track projectRow.projectID){
+            <div class="project">
+                <p>{{ projectRow.projectTitle }}</p>
+                <p>{{ projectRow.projectClient }}</p>
+                <p>{{ projectRow.projectDuration}}</p>
+                <p>{{ projectRow.githubLink }}</p>
+                <p>{{ projectRow.projectLink }}</p>
+                <p>{{ projectRow.projectTools }}</p>
+            </div>
+        }
+        
+    </div>    
+
+</div>
+
