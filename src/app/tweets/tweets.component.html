@@ -1,6 +1,8 @@
 <div class="container">
     <h1>Tweets</h1>
 
+    <button class="btn btn-primary" (click)="addNewTweet()"  (dblclick)="display()" (mouseover)="mousing()">Add New Tweet</button>
+
     <div class="tweetsContainer">
 
         @for(tweetRow of tweets; track tweetRow.tweetID){
