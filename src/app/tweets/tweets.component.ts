@@ -31,4 +31,16 @@ export class TweetsComponent {
     }
    
   ];
+
+  addNewTweet(){
+     alert('New Tweet added');
+  }
+
+  display(){
+     alert('double clicked');
+  }
+
+  mousing(){
+      alert('mouse over')
+  }
 }
